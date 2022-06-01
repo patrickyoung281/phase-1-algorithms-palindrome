@@ -1,10 +1,23 @@
 function isPalindrome(word) {
-  // Write your algorithm here
-}
+  const array = word.split("")
+  const reverseArray = array.reverse();
+  const reverseString = reverseArray.join("");
+  if (word === reverseString) {
+    return true
+  } else { return false
+  }
+  }
 
 /* 
   Add your pseudocode here
 */
+
+//find the length of the string
+//use a for loop to iterate through 1/2 of the string
+//check and see if the first and last string are the same 
+//return true if they are the same
+//return false is ther are not the same 
+
 
 /*
   Add written explanation of your solution here
